@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] This is a number guessing game where the player is given a certain number of tries to guess the secret number! The number of tries and possible range for the secret number varies by difficulty (easy, medium, hard). A player wins by guessing the correct number.
+- [ ] There were a few bugs associated with incorrect guess hints, the new game feature not correctly resetting the game, and the starting tries for each difficulty being incorrect.
+- [ ] Using Claude Code, the incorrect guess hints and new game feature were correctly fixed.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
