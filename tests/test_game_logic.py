@@ -1,4 +1,4 @@
-from app import check_guess, get_range_for_difficulty, parse_guess, update_score
+from logic_utils import check_guess, get_range_for_difficulty, parse_guess, update_score
 
 def test_winning_guess():
     # check_guess returns a tuple; first element is the outcome
