@@ -8,6 +8,26 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+### Hint direction is Incorrect when Guess is Incorrect for a Specific Range
+- When a guess is incorrect, the hint for whether the next guess should be a lower or higher integer is reversed for Integers < 1000 ?
+- Incorrect Output
+- “Go HIGHER!”
+- Correct Output Should Be
+- “Go LOWER!”
+
+### New Game Button does not Restart the Game in full Functionality
+- Clicking the button “New Game” resets only part of the game logic
+- Incorrect Output
+- Does not begin a new game and reset all elements
+- Correct Output Should Be
+- Resets the Game UI as well
+
+### Starting Attempts are Wrong for each Difficulty
+- Incorrect Output when changing to Normal Difficulty
+- “Attempts left: 7”
+- Correct Output Should Be
+- “Attempts left: 8” for Normal Difficulty
+
 ---
 
 ## 2. How did you use AI as a teammate?
